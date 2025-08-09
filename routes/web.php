@@ -21,7 +21,9 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::post('/profile/upload-files', [ProfileController::class, 'uploadFiles'])->name('profile.uploadFiles');
-    Route::resource('myjobs', PuestosController::class);
+    Route::resource('myjobs', PuestosController::class)->parameters([
+        'myjobs' => 'puesto'
+    ]);
 });
 
 require __DIR__.'/auth.php';
