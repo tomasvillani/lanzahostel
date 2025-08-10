@@ -57,9 +57,9 @@ sudo apt install mysql-server php-mysql -y
 Configura la base de datos y el usuario correspondiente:
 ```
 sudo mysql
-CREATE DATABASE gymtinajo;
-CREATE USER 'gymtinajo'@'localhost' IDENTIFIED BY 'gymtinajo';
-GRANT ALL PRIVILEGES ON *.* TO 'gymtinajo'@'localhost';
+CREATE DATABASE lanzahostel;
+CREATE USER 'lanzahostel'@'localhost' IDENTIFIED BY 'lanzahostel';
+GRANT ALL PRIVILEGES ON *.* TO 'lanzahostel'@'localhost';
 FLUSH PRIVILEGES;
 EXIT;
 ```
