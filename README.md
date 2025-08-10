@@ -2,17 +2,11 @@
 
 ## Lanzahostel
 
-**Lanzahostel** es una plataforma web innovadora creada para ofrecer una experiencia de gimnasio única y moderna. Este proyecto permite a los usuarios gestionar sus **reservas de clases** y **contratos de tarifas** de manera fácil y eficiente. Nuestra web facilita todo el proceso, permitiendo a los miembros elegir y reservar su clase ideal con solo unos clics.
+**Lanzahostel** es una plataforma web diseñada para conectar a empresas del sector hostelero en Lanzarote con personas que buscan empleo en esta área. La plataforma facilita la publicación de ofertas laborales, la recepción de solicitudes y la gestión de procesos de selección de forma sencilla y eficiente.
 
-Además, para mejorar la interacción y atención al cliente, **Lanzahostel** integra un **chatbot inteligente con IA**, disponible tanto para **invitados** como para **clientes registrados**. Este asistente virtual está diseñado para proporcionar respuestas sobre ejercicios, rutinas y dietas, ofreciendo asistencia personalizada en tiempo real. ¡Obtén recomendaciones y consejos de fitness al instante y mejora tu rendimiento en el gimnasio!
+Los usuarios pueden registrarse como empresas para publicar sus vacantes y administrar las solicitudes recibidas, o como clientes para buscar empleos, postularse y gestionar sus aplicaciones. Lanzahostel busca simplificar la intermediación laboral en el sector hostelero, optimizando el proceso tanto para empleadores como para candidatos.
 
-Con **Lanzahostel**, los usuarios disfrutan de:
-
-- **Reservas fáciles y rápidas** para cualquier clase.
-- Acceso a **detalles claros sobre tarifas y clases.**
-- **Asistencia 24/7** gracias al chatbot basado en inteligencia artificial.
-
-Este proyecto es ideal tanto para gimnasios que buscan optimizar su gestión como para los usuarios que desean disfrutar de un gimnasio de forma ágil, eficiente y con la tecnología más avanzada.
+Con una interfaz intuitiva y funcionalidades adaptadas a las necesidades locales, esta plataforma pretende potenciar las oportunidades laborales en Lanzarote, fomentando un entorno digital que facilite el encuentro entre oferta y demanda de empleo en hostelería.
 
 ## ¿Qué pueden hacer los diferentes usuarios en Lanzahostel?
 
