@@ -83,11 +83,11 @@ git --version
 
 1. Clona el repositorio:
 ```
-git clone https://github.com/tomasvillani/Proyecto-final-DAW.git
+git clone https://github.com/tomasvillani/lanzahostel.git
 ```
 2. Accede a la carpeta:
 ```
-cd Proyecto-final-DAW
+cd lanzahostel
 ```
 3. Otorga los permisos correspondientes:
 ```
@@ -105,39 +105,19 @@ npm run build
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=gymtinajo
-DB_USERNAME=gymtinajo
-DB_PASSWORD=gymtinajo
-
-MAIL_MAILER=smtp
-MAIL_HOST=sandbox.smtp.mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME=4c2389d9e1f1e2
-MAIL_PASSWORD=8b504d67215918
-MAIL_ENCRYPTION=null
-MAIL_FROM_ADDRESS=gymtinajo@gmail.com
-MAIL_FROM_NAME="Lanzahostel"
+DB_DATABASE=lanzahostel
+DB_USERNAME=lanzahostel
+DB_PASSWORD=lanzahostel
 ```
 7. Genera la clave de encriptación:
 ```
 php artisan key:generate
 ```
-8. Ejecuta las migraciones y estos seeders, para rellenar los datos en la base de datos:
-```
-php artisan migrate
-php artisan db:seed --class=UserSeeder
-php artisan db:seed --class=TarifaSeeder
-php artisan db:seed --class=HorarioSeeder
-```
-Si quieres, también puedes ejecutar este seeder:
-```
-php artisan db:seed --class=EventoSeeder
-```
-9. Para poder almacenar las imágenes para los eventos, ejecuta el siguiente comando:
+8. Para poder almacenar los archivos para los puestos, la foto de perfil y los CV, ejecuta el siguiente comando:
 ```
 php artisan storage:link
 ```
-10. Inicia el servicio:
+9. Inicia el servicio:
 ```
 php artisan serve
 ```
@@ -148,13 +128,6 @@ De esta manera, si accedes por 127.0.0.1:8000, la página debe aparecer sin prob
 
 Consulta los siguientes documentos para obtener información detallada sobre el proceso de desarrollo:
 
-- [Documento de análisis](https://drive.google.com/file/d/129tjCpGYUdT33NKwFFzKBnu1K_T4uwNj/view?usp=sharing)
-- [Documento de diseño](https://drive.google.com/file/d/1us5id3z-igcppqb8Gt1ynCrnyWBbJbNV/view?usp=sharing)
+- [Documento de análisis](https://drive.google.com/file/d/1NgfZBicKFmZvh08xHls8KokR7fZ8tLiU/view?usp=sharing)
+- [Documento de diseño](https://drive.google.com/file/d/1vrPlhSLXCibZ0s_N31kjwoodMbJMWja8/view?usp=sharing)
 
-## Visita el Proyecto Online
-
-Puedes visitar nuestra página web [aquí](https://gymtinajo.alwaysdata.net/)
-
-## Vídeo de Youtube
-
-Puedes ver el vídeo de nuestro proyecto en Youtube [aquí](https://youtu.be/3fXf20tTvhI?si=YNp7uXKW3M-TzClN)
