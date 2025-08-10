@@ -10,36 +10,19 @@ Con una interfaz intuitiva y funcionalidades adaptadas a las necesidades locales
 
 ## ¿Qué pueden hacer los diferentes usuarios en Lanzahostel?
 
-**Lanzahostel** está diseñado para ofrecer una experiencia de usuario completa, adaptada a las necesidades de **invitados, clientes** y **administradores**. Cada tipo de usuario tiene acceso a un conjunto específico de funcionalidades para que puedan aprovechar al máximo el servicio.
+En **Lanzahostel**, cada tipo de usuario tiene acceso a diferentes funcionalidades que se adaptan a sus necesidades.
 
 ### Invitado:
 
-Como **invitado**, puedes explorar y conocer lo que **Lanzahostel** tiene para ofrecer, sin necesidad de crear una cuenta. Disfruta de las siguientes funciones:
-
-- **Consulta información básica** sobre el gimnasio: conoce nuestras **clases, eventos, horarios y profesores.**
-- **Interacción con el chatbot:** recibe respuestas rápidas sobre **ejercicios, rutinas de entrenamiento y dietas.**
-
-Invitar a tus amigos a conocer más sobre nosotros nunca fue tan fácil.
+Los usuarios no registrados pueden navegar y consultar las ofertas de empleo disponibles en la plataforma. Esto les permite explorar las oportunidades laborales en el sector hostelero de Lanzarote sin necesidad de crear una cuenta.
 
 ### Cliente:
 
-Los **clientes** tienen acceso a todo lo que un invitado puede ver, además de una serie de funcionalidades exclusivas una vez se registran:
+Los usuarios registrados como clientes pueden buscar y postularse a las ofertas de trabajo publicadas. Además, tienen la posibilidad de gestionar sus solicitudes, ver el estado de sus postulaciones, y eliminar aquellas que ya no les interesen. También pueden actualizar su perfil y cargar su currículum para facilitar el proceso de aplicación.
 
-- **Consulta información detallada** sobre las clases, eventos y los profesores.
-- **Uso del chatbot:** recibe asesoramiento personalizado en **ejercicios, dietas y rutinas** para mejorar tu rendimiento.
-- **Reservas de clases:** después de **contratar una tarifa,** podrás reservar clases según tu disponibilidad, asegurando que tu experiencia sea siempre la mejor
+### Empresa:
 
-Los clientes tienen el control para organizar sus entrenamientos y adaptarlos a sus necesidades.
-
-### Administrador:
-
-Como **administrador,** tendrás acceso completo a todas las funcionalidades para gestionar el gimnasio de manera eficiente
-
-- **Gestión de clientes y reservas:** Puedes **crear, ver, editar y eliminar** reservas de clases de todos los usuarios, así como gestionar la información de los clientes.
-- **Control total de las reservas:** Organiza y administra las reservas de clases para que el gimnasio funcione de manera óptima.
-- **Gestión de eventos** e **información general:** Administra los eventos disponibles y ajusta los datos relacionados con las clases y horarios.
-
-Aunque los administradores no pueden interactuar con el chatbot, tienen el control total para garantizar el buen funcionamiento del gimnasio.
+Los usuarios registrados como empresas pueden crear, editar y eliminar ofertas de empleo para promocionar sus vacantes. Asimismo, pueden revisar las solicitudes recibidas, aceptarlas o rechazarlas, y gestionar la información de sus puestos publicados. Esta funcionalidad facilita el proceso de selección y contratación dentro del sector hostelero.
 
 ## Instalación
 
