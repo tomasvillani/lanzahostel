@@ -36,6 +36,12 @@
                 <div class="mb-2">
                     <img src="{{ asset('storage/' . $puesto->imagen) }}" alt="{{ $puesto->nombre }}" style="max-height: 200px; object-fit: cover;">
                 </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" name="eliminar_imagen" id="eliminar_imagen" value="1">
+                    <label class="form-check-label" for="eliminar_imagen">
+                        Eliminar imagen actual
+                    </label>
+                </div>
             @endif
             <input type="file" name="imagen" id="imagen" class="form-control" accept="image/*">
         </div>

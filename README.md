@@ -1,61 +1,183 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="#"><img src="public/img/logo-extendido.png" width="400" alt="Lanzahostel"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Lanzahostel
 
-## About Laravel
+**Lanzahostel** es una plataforma web innovadora creada para ofrecer una experiencia de gimnasio única y moderna. Este proyecto permite a los usuarios gestionar sus **reservas de clases** y **contratos de tarifas** de manera fácil y eficiente. Nuestra web facilita todo el proceso, permitiendo a los miembros elegir y reservar su clase ideal con solo unos clics.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Además, para mejorar la interacción y atención al cliente, **Lanzahostel** integra un **chatbot inteligente con IA**, disponible tanto para **invitados** como para **clientes registrados**. Este asistente virtual está diseñado para proporcionar respuestas sobre ejercicios, rutinas y dietas, ofreciendo asistencia personalizada en tiempo real. ¡Obtén recomendaciones y consejos de fitness al instante y mejora tu rendimiento en el gimnasio!
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Con **Lanzahostel**, los usuarios disfrutan de:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Reservas fáciles y rápidas** para cualquier clase.
+- Acceso a **detalles claros sobre tarifas y clases.**
+- **Asistencia 24/7** gracias al chatbot basado en inteligencia artificial.
 
-## Learning Laravel
+Este proyecto es ideal tanto para gimnasios que buscan optimizar su gestión como para los usuarios que desean disfrutar de un gimnasio de forma ágil, eficiente y con la tecnología más avanzada.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## ¿Qué pueden hacer los diferentes usuarios en Lanzahostel?
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+**Lanzahostel** está diseñado para ofrecer una experiencia de usuario completa, adaptada a las necesidades de **invitados, clientes** y **administradores**. Cada tipo de usuario tiene acceso a un conjunto específico de funcionalidades para que puedan aprovechar al máximo el servicio.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Invitado:
 
-## Laravel Sponsors
+Como **invitado**, puedes explorar y conocer lo que **Lanzahostel** tiene para ofrecer, sin necesidad de crear una cuenta. Disfruta de las siguientes funciones:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- **Consulta información básica** sobre el gimnasio: conoce nuestras **clases, eventos, horarios y profesores.**
+- **Interacción con el chatbot:** recibe respuestas rápidas sobre **ejercicios, rutinas de entrenamiento y dietas.**
 
-### Premium Partners
+Invitar a tus amigos a conocer más sobre nosotros nunca fue tan fácil.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### Cliente:
 
-## Contributing
+Los **clientes** tienen acceso a todo lo que un invitado puede ver, además de una serie de funcionalidades exclusivas una vez se registran:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- **Consulta información detallada** sobre las clases, eventos y los profesores.
+- **Uso del chatbot:** recibe asesoramiento personalizado en **ejercicios, dietas y rutinas** para mejorar tu rendimiento.
+- **Reservas de clases:** después de **contratar una tarifa,** podrás reservar clases según tu disponibilidad, asegurando que tu experiencia sea siempre la mejor
 
-## Code of Conduct
+Los clientes tienen el control para organizar sus entrenamientos y adaptarlos a sus necesidades.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Administrador:
 
-## Security Vulnerabilities
+Como **administrador,** tendrás acceso completo a todas las funcionalidades para gestionar el gimnasio de manera eficiente
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- **Gestión de clientes y reservas:** Puedes **crear, ver, editar y eliminar** reservas de clases de todos los usuarios, así como gestionar la información de los clientes.
+- **Control total de las reservas:** Organiza y administra las reservas de clases para que el gimnasio funcione de manera óptima.
+- **Gestión de eventos** e **información general:** Administra los eventos disponibles y ajusta los datos relacionados con las clases y horarios.
 
-## License
+Aunque los administradores no pueden interactuar con el chatbot, tienen el control total para garantizar el buen funcionamiento del gimnasio.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Instalación
+
+Para ejecutar **Lanzahostel** localmente, sigue estos pasos:
+
+### Requisitos previos:
+
+- PHP >= 8.1 , y todas las extensiones necesarias:
+```
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:ondrej/php -y
+sudo apt update
+sudo apt install php php-cli php-mbstring php-xml php-bcmath php-curl php-zip unzip curl -y
+```
+Confirma la instalación de PHP:
+```
+php -v
+```
+- Composer
+```
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+```
+Verifica la instalación:
+```
+composer --version
+```
+- MySQL
+```
+sudo apt install mysql-server php-mysql -y
+```
+Configura la base de datos y el usuario correspondiente:
+```
+sudo mysql
+CREATE DATABASE gymtinajo;
+CREATE USER 'gymtinajo'@'localhost' IDENTIFIED BY 'gymtinajo';
+GRANT ALL PRIVILEGES ON *.* TO 'gymtinajo'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
+```
+- Node.js
+```
+sudo apt install nodejs npm
+```
+Confirma la instalación:
+```
+node -v
+npm -v
+```
+- Git
+```
+sudo apt install git
+```
+Confirma la instalación:
+```
+git --version
+```
+
+1. Clona el repositorio:
+```
+git clone https://github.com/tomasvillani/Proyecto-final-DAW.git
+```
+2. Accede a la carpeta:
+```
+cd Proyecto-final-DAW
+```
+3. Otorga los permisos correspondientes:
+```
+sudo chmod 777 -R ./*
+```
+4. Instala las dependencias de Composer y de Node.js:
+```
+composer install
+npm install
+npm run build
+```
+5. Copia el archivo .env.example a un archivo .env.
+6. Modifica estas líneas del .env:
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=gymtinajo
+DB_USERNAME=gymtinajo
+DB_PASSWORD=gymtinajo
+
+MAIL_MAILER=smtp
+MAIL_HOST=sandbox.smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=4c2389d9e1f1e2
+MAIL_PASSWORD=8b504d67215918
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS=gymtinajo@gmail.com
+MAIL_FROM_NAME="Lanzahostel"
+```
+7. Genera la clave de encriptación:
+```
+php artisan key:generate
+```
+8. Ejecuta las migraciones y estos seeders, para rellenar los datos en la base de datos:
+```
+php artisan migrate
+php artisan db:seed --class=UserSeeder
+php artisan db:seed --class=TarifaSeeder
+php artisan db:seed --class=HorarioSeeder
+```
+Si quieres, también puedes ejecutar este seeder:
+```
+php artisan db:seed --class=EventoSeeder
+```
+9. Para poder almacenar las imágenes para los eventos, ejecuta el siguiente comando:
+```
+php artisan storage:link
+```
+10. Inicia el servicio:
+```
+php artisan serve
+```
+
+De esta manera, si accedes por 127.0.0.1:8000, la página debe aparecer sin problema.
+
+## Documentos de interés
+
+Consulta los siguientes documentos para obtener información detallada sobre el proceso de desarrollo:
+
+- [Documento de análisis](https://drive.google.com/file/d/129tjCpGYUdT33NKwFFzKBnu1K_T4uwNj/view?usp=sharing)
+- [Documento de diseño](https://drive.google.com/file/d/1us5id3z-igcppqb8Gt1ynCrnyWBbJbNV/view?usp=sharing)
+
+## Visita el Proyecto Online
+
+Puedes visitar nuestra página web [aquí](https://gymtinajo.alwaysdata.net/)
+
+## Vídeo de Youtube
+
+Puedes ver el vídeo de nuestro proyecto en Youtube [aquí](https://youtu.be/3fXf20tTvhI?si=YNp7uXKW3M-TzClN)

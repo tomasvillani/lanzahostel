@@ -35,7 +35,7 @@
                             </div>
 
                             <div class="d-flex justify-content-between mt-3">
-                                <a href="{{ route('myjobs.show', $puesto) }}" class="btn btn-outline-primary btn-sm w-100">Ver más</a>
+                                <a href="{{ route('jobs.show', $puesto) }}" class="btn btn-outline-primary btn-sm w-100">Ver más</a>
 
                                 <a href="{{ route('myjobs.edit', $puesto) }}" class="btn btn-outline-warning btn-sm">Editar</a>
 

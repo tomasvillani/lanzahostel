@@ -32,15 +32,23 @@ class ProfileUpdateRequest extends FormRequest
         ];
 
         if ($this->user()->tipo === 'c') {
-            // Solo clientes pueden enviar teléfono, que puede ser nulo o con formato válido
+            // Solo clientes pueden enviar teléfono y CV
             $rules['telefono'] = [
                 'nullable',
                 'string',
                 'regex:/^([67]\d{8}|[67]\d{2} \d{3} \d{3}|[67]\d{2} \d{2} \d{2} \d{2})$/'
             ];
+
+            $rules['cv'] = [
+                'nullable',
+                'file',
+                'mimes:pdf,doc,docx',
+                'max:2048', // máximo 2MB
+            ];
         } else {
-            // Otros tipos no pueden enviar teléfono
+            // Otros tipos no pueden enviar teléfono ni CV
             $rules['telefono'] = ['prohibited'];
+            $rules['cv'] = ['prohibited'];
         }
 
         return $rules;
@@ -58,6 +66,10 @@ class ProfileUpdateRequest extends FormRequest
             'email.unique' => 'Este correo electrónico ya está en uso.',
             'telefono.regex' => 'El formato del teléfono no es válido.',
             'telefono.prohibited' => 'No tienes permiso para modificar el teléfono.',
+            'cv.file' => 'El archivo del CV debe ser un archivo válido.',
+            'cv.mimes' => 'El CV debe ser un archivo de tipo: pdf, doc o docx.',
+            'cv.max' => 'El CV no puede superar los 2MB.',
+            'cv.prohibited' => 'No tienes permiso para modificar el CV.',
         ];
     }
 }

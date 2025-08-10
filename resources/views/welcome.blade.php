@@ -51,7 +51,7 @@
 </div>
 
 <div class="container mt-4 mb-5">
-<form id="searchForm" action="{{ url('/cards') }}" method="GET" class="d-flex justify-content-center">
+<form id="searchForm" action="{{ url('/jobs') }}" method="GET" class="d-flex justify-content-center">
     <input id="searchInput" class="form-control me-2" type="search" name="q" placeholder="Buscar por nombre o empresa" aria-label="Buscar" style="max-width: 500px;">
     <button class="btn btn-success" type="submit">Buscar</button>
 </form>
@@ -59,4 +59,13 @@
 
 <h1 class="mt-5 text-center">Bienvenido a Lanzahostel</h1>
 <p class="text-center">Tu puerta a las mejores oportunidades de empleo en hostelería en Lanzarote.</p>
+
+<script>
+    document.getElementById('searchForm').addEventListener('submit', function(e) {
+      const query = document.getElementById('searchInput').value.trim();
+      if (!query) {
+        e.preventDefault();
+      }
+    });
+  </script>
 @endsection

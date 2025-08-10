@@ -17,7 +17,7 @@
 
                     <div class="d-grid gap-2 d-md-flex justify-content-center mt-4 flex-wrap">
                         {{-- Explorar puestos (todos) --}}
-                        <a href="{{ url('/jobs') }}" class="btn btn-outline-success me-md-2 mb-2">Explorar Puestos</a>
+                        <a href="{{ url('/jobs') }}" class="btn btn-outline-primary me-md-2 mb-2">Explorar Puestos</a>
 
                         {{-- Mis puestos --}}
                         @if(Auth::user()->tipo === 'e')

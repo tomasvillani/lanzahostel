@@ -7,7 +7,7 @@
         <h1 class="mb-4 text-center">Acerca de Lanzahostel</h1>
         <p class="lead text-center mb-5">
             Lanzahostel es la plataforma líder que conecta a profesionales del sector de la hostelería con las mejores oportunidades laborales en Lanzarote.
-Nuestro objetivo es facilitar el encuentro entre talento y empresas, ofreciendo un espacio donde puedas encontrar ofertas de empleo actualizadas, consejos útiles y apoyo para impulsar tu carrera en la isla.
+Nuestro objetivo es facilitar el encuentro entre talento y empresas, ofreciendo un espacio donde puedas encontrar ofertas de empleo actualizadas para impulsar tu carrera en la isla.
         </p>
 
         <hr>
