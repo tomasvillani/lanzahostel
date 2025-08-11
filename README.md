@@ -113,11 +113,15 @@ DB_PASSWORD=lanzahostel
 ```
 php artisan key:generate
 ```
-8. Para poder almacenar los archivos para los puestos, la foto de perfil y los CV, ejecuta el siguiente comando:
+8. Ejecuta las migraciones:
+```
+php artisan migrate
+```
+9. Para poder almacenar los archivos para los puestos, la foto de perfil y los CV, ejecuta el siguiente comando:
 ```
 php artisan storage:link
 ```
-9. Inicia el servicio:
+10. Inicia el servicio:
 ```
 php artisan serve
 ```
